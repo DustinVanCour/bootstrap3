@@ -1,15 +1,23 @@
-.bg-color {
-  background-color: rgb(212, 234, 241);
+body .bg-color {
+  background-color: #003b6f;
 }
 #header {
   text-align: center;
+  color: white;
 }
 #nav-bar {
   text-align: center;
+  color: white;
 }
 .tardis-img {
   background-image: url("/assets/TARDIS.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: inherit;
+  vertical-align: middle;
   height: 40vh;
+}
+#info-cards .col {
+display: flex;
+justify-content: center;
+margin: 20px;
 }
