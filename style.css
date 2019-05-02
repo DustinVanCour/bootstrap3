@@ -7,14 +7,12 @@
 #nav-bar {
   text-align: center;
 }
-#tardis {
-  max-height: 20vh;
-}
 .tardis-img {
   background-image: url("/assets/TARDIS.jpg");
-  height: 30vh;
-  width: 100%;
-  background-size: auto;
-  object-fit: fill;
-  align-items: stretch;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+.card {
+  ;
 }
