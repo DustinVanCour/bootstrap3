@@ -1,3 +1,6 @@
 .bg-color {
   background-color: rgb(212, 234, 241);
 }
+#header {
+  text-align: center;
+}
